@@ -1,0 +1,25 @@
+body {
+  background-color: #f0f043;
+}
+
+h1 {
+  color: rgb(3, 3, 119);
+}
+
+h2.rojo {
+  color: rgb(112, 1, 1);
+}
+
+img {
+  width: 300px;
+  height: auto;
+}
+
+a.magenta {
+  color: rgba(31, 114, 6, 0.5);
+}
+
+.flex {
+  display: flex;
+  gap: 10px;
+}

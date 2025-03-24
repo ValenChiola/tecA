@@ -1,0 +1,56 @@
+<!-- Construir una página web llamada “index.html” con los datos del estudiante,
+respetando la siguiente estructura:
+● Fondo de color amarillo claro
+● Título H1 color azul oscuro con el nombre del estudiante
+● Texto H2 rojo oscuro con el número de DNI
+● Texto H2 rojo oscuro con la fecha de nacimiento
+● Texto H2 con un mail de contacto y un enlace al mismo -->
+
+<!-- Completar la maqueta con la incorporación de:
+● Una imagen dentro de la página
+● Una lista de hobbies e intereses
+● Un enlace por cada ítem de la lista
+● Un enlace en la imagen
+● Dos enlaces H3 color magenta: "Aceptar" y "Cancelar" -->
+
+<!-- Por cada enlace (excepto los botones), construir una página que responda al enlace.
+La página debe responder a la siguiente estructura:
+● Fondo de color amarillo claro
+● Título H1 color azul oscuro, con la descripción de la página
+● Enlace H3 color magenta, que permita regresar a la página anterior -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Agustin y Valentino</h1>
+    <h2 class="rojo">44534090 | 45571915</h2>
+    <h2 class="rojo">22/11/2002 | 06/02/2004</h2>
+    <h2>
+      <a href="mailto:zalazaragustin51@gmail.com">Contact.Agus</a>
+      <a href="mailto:chiolaveln01@gmail.com">Contact.Valen</a>
+    </h2>
+    <a target="_blank" href="https://www.instagram.com/leomessi/?hl=en">
+      <img src="agus.jpeg" alt="mesias" title="Agus" />
+    </a>
+
+    <div>
+      <h3>Hobbies:</h3>
+      <ul>
+        <li>Aprobar materias</li>
+        <li>Jugar a la pelota</li>
+        <li>Arreglar pc's</li>
+      </ul>
+    </div>
+
+    <div class="flex">
+      <h3><a href="#" class="magenta">Aceptar</a></h3>
+      <h3><a href="#" class="magenta">Cancelar</a></h3>
+    </div>
+  </body>
+</html>

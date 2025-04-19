@@ -23,3 +23,7 @@ a.magenta {
   display: flex;
   gap: 10px;
 }
+
+.datosEst :not(:last-child){
+  border-bottom: solid black;
+}

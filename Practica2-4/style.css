@@ -1,0 +1,57 @@
+:root {
+  --color-fondo: yellow;
+  --color-contacto: blue;
+  --color-nombre: red;
+  --color-dni: brown;
+  --color-linea: black;
+  --color-enlace: violet;
+}
+
+body {
+  background-color: var(--color-fondo);
+}
+
+h1 {
+  color: var(--color-nombre);
+}
+
+h2.dato {
+  color: var(--color-dni);
+}
+
+img {
+  width: 300px;
+  height: auto;
+}
+
+a.magenta {
+  color: var(--color-enlace);
+}
+
+.flex {
+  display: flex;
+  gap: 10px;
+}
+
+.datosEst > *:not(:last-child){
+  border-bottom: solid var(--color-linea);
+}
+
+.datosEst > *:nth-child(odd){
+  color:  var(--color-nombre);
+}
+
+.hobbie {
+  text-decoration-line: none;
+  color: var(--color-dni);
+  font-weight: bold;
+}
+
+.hobbie:hover {
+  text-decoration-line: underline;
+}
+
+.hobbie:active {
+  color: var(--color-nombre);
+  text-decoration-line: underline;
+}

@@ -1,0 +1,13 @@
+body {
+    background-color: gray;
+}
+
+table,td,th {
+    border: 1px solid white;
+    text-align: center;
+}
+
+img {
+    width: 600px;
+    height: auto;
+}

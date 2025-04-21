@@ -20,7 +20,26 @@ La página debe responder a la siguiente estructura:
 ● Enlace H3 color magenta, que permita regresar a la página anterior -->
 
 <!-- Los sucesivos cambios en las páginas han alterado su estética. Proponer un archivo
-CSS con los cambios necesarios para mejorar el aspecto visual de cada página. -->
+CSS con los cambios necesarios para mejorar el aspecto visual de cada página. 
+
+Realizar los siguientes cambios en el sitio web desarrollado en la Guía de Trabajos 
+Prácticos N° 2:
+
+1. Agregar, en forma alternada, dos colores de letra y selección a datos del estudiante 
+de la página principal. 
+
+2. Colocar líneas divisorias entre los datos del estudiante de la página principal. No 
+debe quedar ninguna línea encima del primer dato ni debajo del último. Resolver 
+utilizando exclusivamente CSS, sin incluir nuevas clases ni etiquetas HTML. 
+
+3. Hacer que los enlaces de la lista de hobbies e intereses se muestren sin subrayado 
+y con un color a elección. Cuando se pase el cursor por encima, deben subrayarse. 
+El color debe cambiar cuando se estén presionando, manteniendo el subrayado. 
+Siempre deben estar en negrita y no alterarse si fueron visitados. 
+
+4. Utilizar propiedades personalizadas para todos los colores aplicados. 
+
+-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -33,8 +52,8 @@ CSS con los cambios necesarios para mejorar el aspecto visual de cada página. -
   <body>
     <div class="datosEst">
       <h1>Agustin y Valentino</h1>
-      <h2 class="rojo">44534090 | 45571915</h2>
-      <h2 class="rojo">22/11/2002 | 06/02/2004</h2>
+      <h2 class="dato">44534090 | 45571915</h2>
+      <h2 class="dato">22/11/2002 | 06/02/2004</h2>
       <div>
         <h2>
           <a href="contacto1.html">Contact.Agus</a>
@@ -49,10 +68,10 @@ CSS con los cambios necesarios para mejorar el aspecto visual de cada página. -
 
     <div>
       <h3>Hobbies:</h3>
-      <ul class="hobbies">
-        <li><a href="hobbie1.html">Aprobar materias</a></li>
-        <li><a href="hobbie2.html">Jugar a la pelota</a></li>
-        <li><a href="hobbie3.html">Arreglar pc's</a></li>
+      <ul>
+        <li><a class="hobbie" href="hobbie1.html">Aprobar materias</a></li>
+        <li><a class="hobbie" href="hobbie2.html">Jugar a la pelota</a></li>
+        <li><a class="hobbie" href="hobbie3.html">Arreglar pc's</a></li>
       </ul>
     </div>
 

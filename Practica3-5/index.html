@@ -42,6 +42,73 @@
         <h1>Lista de alumnos</h1>
         <li><a href="alumno1.html">Valen</a></li>
         <li><a href="alumno2.html">Agus</a></li>
-    </ul>    
+    </ul>
+    
+    <ol>
+        <h2>VENTAJAS del modelo cliente-servidor</h2>
+        <li>Adminisitracion centralizada</li>
+            <ul>
+                <li>Qué significa: Todo el control del sistema se encuentra en el servidor: 
+                    configuración, acceso, seguridad, etc.</li>
+                <li>Es como una biblioteca centralizada donde todos los libros están organizados 
+                    y administrados por un bibliotecario. Si necesitás un libro, lo pedís y el 
+                    bibliotecario lo busca por vos. No hace falta que cada persona sepa dónde está cada cosa.</li>
+            </ul>
+        <li>Acceso controlado globalmente</li>
+            <ul>
+                <li>Qué significa: Se pueden definir permisos y políticas de acceso en un solo lugar (el servidor).</li>
+                <li>Analogía: Como una discoteca con un portero en la entrada. Solo deja pasar a quienes están en la lista, 
+                    y puede cambiar la lista sin tener que hablar con cada invitado.</li>
+            </ul>
+        <li>Estabilidad controlada</li>
+            <ul>
+                <li>Qué significa: Es más fácil escalar los recursos del servidor (más RAM, mejor CPU, etc.) 
+                    que gestionar múltiples clientes independientes.</li>
+                <li>Analogía: Imaginá un restaurante con cocina central. Si hay más clientes, contratás más cocineros 
+                    o ampliás la cocina, pero no necesitás que cada cliente cocine su comida.</li>
+            </ul>
+        <li>Mantenimiento sencillo</li>
+            <ul>
+                <li>Qué significa: Actualizar o reparar el sistema se hace en el servidor, no en cada cliente.</li>
+                <li>Analogía: Como cambiar una bombita en una lámpara central que ilumina todo un salón. 
+                    No necesitás entrar a cada habitación a cambiar una bombita diferente.</li>
+            </ul>
+        <li>Disponibilidad compartida de recursos</li>
+            <ul>
+                <li>Qué significa: Varios clientes pueden usar los mismos archivos, bases de datos, o aplicaciones.</li>
+                <li>Analogía: Como un Netflix corporativo: muchos usuarios ven películas distintas desde el mismo 
+                    servidor sin tener una copia local.</li>
+            </ul>            
+    </ol>
+    <ol>
+        <h2>DESVENTAJAS del modelo cliente-servidor</h2>
+        <li>Punto unico de falla (caida del servidor)</li>
+            <ul>
+                <li>Qué significa: Si el servidor deja de funcionar, todos los clientes quedan sin servicio.</li>
+                <li>Analogía: Es como si se cortara la luz en un shopping: aunque las tiendas estén en buen estado, 
+                    no pueden operar sin energía.</li>
+            </ul>
+        <li>Costo y complejidad del servidor</li>
+            <ul>
+                <li>Qué significa: El servidor debe tener mucha capacidad, buena seguridad, y un mantenimiento constante.</li>
+                <li>Analogía: Es como tener una central eléctrica: necesita inversiones, técnicos, 
+                    repuestos… pero alimenta muchas casas.</li>
+            </ul>
+        <li>Dependencia de la red</li>
+            <ul>
+                <li>Qué significa: La comunicación entre cliente y servidor necesita una red estable y rápida. 
+                    Si hay cortes o lentitud, afecta la experiencia.</li>
+                <li>Analogía: Como pedir comida por delivery: si el repartidor se retrasa o se rompe la moto, no comés.</li>
+            </ul>
+        <li>Escalabilidad limitada horizontalmente</li>
+            <ul>
+                <li>Qué significa: Si hay muchos clientes, el servidor puede saturarse si no está bien diseñado.</li>
+                <li>Analogía: Como una sola ventanilla de atención al público: funciona bien con pocas personas, 
+                    pero si llega una multitud se genera una cola enorme.</li>
+            </ul>
+    </ol>
+
+    <a href="tabla.html"><h2>Maqueta (replica de tabla)</h2></a>
+    <a href="dominios.html"><h2>Maqueta (lista de dominios)</h2></a>
 </body>
 </html>

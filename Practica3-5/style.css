@@ -1,13 +1,72 @@
 body {
-    background-color: gray;
+    background-color: rgb(190, 188, 188);
 }
 
 table,td,th {
     border: 1px solid white;
-    text-align: center;
 }
 
 img {
     width: 600px;
     height: auto;
+}
+
+.multimedia {
+    width: 100%;
+    max-width: 640px;
+    margin: auto;
+}
+
+.multimedia > * {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
+  
+.media {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  margin-top: 30px;
+  object-fit: cover;
+  display: block;
+}
+
+.tablaProtocolos {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    max-width: 580px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.cabeceraMetodos {
+    width: 25%;
+    padding: 10px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.cabeceraSignificados {
+    width: 75%;
+    padding: 10px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.protocolosH {
+    background-color: rgba(45, 165, 221, 0.986);
+    font-weight: bold;
+    color: white;
+}
+
+.protocolosB1 {
+    background-color: rgb(141, 181, 199);
+}
+
+.protocolosB2 {
+    background-color: rgb(176, 194, 202);
+}
+
+.cuerpoTablaP {
+    color: rgb(105, 105, 105);
 }

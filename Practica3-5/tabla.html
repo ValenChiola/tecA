@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table class="tablaProtocolos">
+        <thead>
+            <tr class="protocolosH">
+                <th class="cabeceraMetodos">Metodo HTTPS</th>
+                <th class="cabeceraSignificados">Significado en Restful Web Services</th>
+            </tr>
+        </thead>
+        <tbody class="cuerpoTablaP">
+            <tr class="protocolosB1">
+                <td>GET</td>
+                <td>Se utiliza para operaciones de solo lectura. No generan ningun cambio en 
+                    el servidor.</td>
+            </tr>
+            <tr class="protocolosB2">
+                <td>DELETE</td>
+                <td>Elimina un recurso en especifico. Ejecutar esta opcion multiples veces 
+                    no tiene ningun efecto.</td>
+            </tr>
+            <tr class="protocolosB1">
+                <td>POST</td>
+                <td>Cambia la informacion de un recurso en el servidor. Puede o no regresar 
+                    informacion.</td>
+            </tr>
+            <tr class="protocolosB2">
+                <td>PUT</td>
+                <td>Almacena informacion de un recurso en particular. Ejecutar esta operacion 
+                    multiples veces no tiene efecto, ya que se esta almacenando la misma
+                    informacion sobre el recurso.</td>
+            </tr>
+            <tr class="protocolosB1">
+                <td>HEAD</td>
+                <td>Regresa solo el codigo de respuesta y cualquier cabecero HTTP asociado 
+                    con la respuesta.</td>
+            </tr>
+            <tr class="protocolosB2">
+                <td>OPTIONS</td>
+                <td>Representa las opciones disponibles para estableces la comunicación en el
+                    proceso de peticion/respuesta de una URI.</td>
+            </tr>
+        </tbody>
+    </table>
+    <a href="index.html">atras</a>
+</body>
+</html>
